@@ -9,6 +9,9 @@ public class LoginAction {
 	private String name;
 	private String password;
 
+	private static final String ERROR = "error";
+	private static final String SUCCESS = "success";
+
 	public String execute() throws SQLException {
 		String ret = ERROR;
 
